@@ -3,7 +3,42 @@
   <title>samsung.gopi</title>
 <head>
 <style>
-
+.bd {background-color: #1F2833;}
+div a {
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  padding: 15px;
+  display:inline-block;
+}
+ul {
+  display: inline;
+  margin: 0;
+  padding: 0;
+}
+ul li {display: inline-block;}
+ul li:hover {background:#D7CEC7;
+  }
+ul li:hover ul {display: block;}
+ul li ul {
+  position: absolute;
+  width: 190px;
+  display: none;
+}
+ul li ul li { 
+  background: #D7CEC7; 
+  display: block; 
+}
+ul li ul li a {display:block !important;} 
+ul li ul li:hover {background: #af9e91;}
+.vl {
+  border-left: 2px solid green;
+  height: 500px;
+  position: absolute;
+  left: 90%;
+  margin-left: -30px;
+  top: 0;
+}
 .mySlides{display: none;}
 .border{
         border-style:inset;
@@ -49,9 +84,62 @@
 
 </style>
 </head>
-<body style="background-color: white;">
-
-<h1>SAMSUNG</h1>
+<body style="background-color: #9be0dc;">
+<div class="bd">
+    <span style="font-size: 38px;color: white;">SAMSUNG&emsp;&emsp;&emsp;</span>
+<ul>
+<li>
+  <a href="#">Mobile</a>
+  <ul>
+    <li><a href="https://gopinathide.github.io/s9/">Galaxy S9</a></li>
+    <li><a href="#">Galaxy M21</a></li>
+    <li><a href="#">Galaxy J5</a></li>
+  </ul>
+  
+  </ul>
+</li>
+&emsp;
+<ul>
+    <li>
+      <a href="#">TV & AV</a>
+      <ul>
+        <li><a href="#">Neo QLED 8K</a></li>
+        <li><a href="#">Neo QLED 4K</a></li>
+        <li><a href="#">4K UHD TV</a></li>
+      </ul>
+    </li>
+  </ul> 
+  &emsp;<ul>
+    <li>
+      <a href="#">Home Appliances</a>
+      <ul>
+        <li><a href="#">Refrigerators</a></li>
+        <li><a href="#">AC</a></li>
+        <li><a href="#">Washing Machine</a></li>
+      </ul>
+    </li>
+  </ul>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+  <ul>
+    <li>
+      <a href="#">Support</a>
+      <ul>
+        <li><a href="#">Service</a></li>
+        <li><a href="#">Solution & tips</a></li>
+        <li><a href="#">Online shop</a></li>
+      </ul>
+    </li>
+  </ul><ul>
+    <li>
+      <a href="#">Contact Us</a>
+      <ul>
+        <li><a href="#">whatsapp</a></li>
+        
+      </ul>
+    </li>
+  </ul>
+  <input type="text" placeholder="Search.." name="search" style="width: 5%;height: 20px;border-radius: 12px;">
+   <button type="submit"><i class="fa fa-search"><img src="search.png" alt="" width="20px"></i></button>
+   </div><br><br><br><br><br>
 <br>
 <div class="w3-content w3-section" style="max-width:1200px;max-height: 900px;margin-left: auto;margin-right: auto;">
   <img class="mySlides" src="tv.webp" style="width:100%">
